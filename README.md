@@ -15,9 +15,9 @@
 ## ETL-AWS-COLAB
   
 
-### Sub-Summary:
+### Summary:
 
-When I designed the first model, I was trying to simplify the data and apply a shallow deep learning model. For each non-numeric-data column, I categorized them into two categories, a category which has the highest count numbers and the other. After I had executed the whole process, I realized that the way I binned data might confuse the model as the organization did not simply use dichotomy to assess each applicant. 
+
 
 
 ## Vine Program Aanlysis
@@ -51,7 +51,7 @@ Project
 
 1. A Colab account - Colab Notebooks  
 2. An AWS account - S3 and RDS service  
-*Remember to closely monitor any AWS resources that you choose to use. It’s crucial that you clean up and stop, or shut down any AWS resources to avoid accruing additional costs.  
+**Remember to closely monitor any AWS resources that you choose to use. It’s crucial that you clean up and stop, or shut down any AWS resources to avoid accruing additional costs.**    
 3. S3 bucket permission setting:  
 ```
 {
