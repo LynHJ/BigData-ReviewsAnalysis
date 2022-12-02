@@ -62,12 +62,14 @@ Project
             "Effect": "Allow",  
             "Principal": "*",  
             "Action": "s3:GetObject",  
-            "Resource": "arn:aws:s3:::test-2911-2024/*"  
+            "Resource": "<bucket codes>/*"  
         }
     ]
 }
 ```
 
+## References
+1. https://medium.com/geekculture/create-mysql-database-with-amazon-rds-4a6581e8dfaa
 
 
 
