@@ -53,7 +53,8 @@ Project
 2. An AWS account - S3 and RDS service  
 *Remember to closely monitor any AWS resources that you choose to use. It’s crucial that you clean up and stop, or shut down any AWS resources to avoid accruing additional costs.  
 3. S3 bucket permission setting:  
-<code>{
+```
+{
     "Version": "2012-10-17",  
     "Statement": [  
         {  
@@ -64,7 +65,8 @@ Project
             "Resource": "arn:aws:s3:::test-2911-2024/*"  
         }
     ]
-}</code>
+}
+```
 
 
 
