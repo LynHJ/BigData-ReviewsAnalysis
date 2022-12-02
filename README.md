@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/pyspark-3.3.1-informational?style=plastic&logo=appveyor)
 ![](https://img.shields.io/badge/pandas-1.3.5-informational?style=plastic&logo=appveyor)
 
-![alt text]()
+![alt text](https://github.com/LynHJ/BigData-ReviewsAnalysis/blob/95b91399d931b3c957a2ad694423f738fbb768e8/Image/AWS_RDS.webp)
 
 
 ## Background
