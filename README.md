@@ -10,22 +10,17 @@
 
 ## Background
 
-
+In the era of information explosion,using local machines to analyse big data might take hours to generate worth trends or strategies. This project is to demonstrate how to use AWS services and google Colab to process big data.
 
 ## ETL-AWS-COLAB
-  
 
-### Summary:
-
-
-
-
-## Vine Program Aanlysis
-
-
-### Summary:
-
-
+1. Create an AWS account  
+2. Connect google colab with an ipynb file  
+3. In AWS(RDS), create a data base  
+4. Follow **References 1** to build up a connection between local progreSQL and RDS  
+5. Extract datasets from <code>https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt</code>  
+6. Use Spark to rocess ETL method to clean the data  
+7. Use Spark <code>.write.jdbc</code> method to load data into progreSQL  
 
 ## Content:
 ```
@@ -42,9 +37,8 @@ Project
 ├── README.md
 ├── requirements.txt
 ├── reviews_us_Kitchen.ipynb
-├── reviews_us_Tools.ipynb
-├── vine_analysis.ipynb
-└── vine_schema.sql
+└── reviews_us_Tools.ipynb
+
 ```
 
 ## Prerequisites
@@ -70,6 +64,7 @@ Project
 
 ## References
 1. https://medium.com/geekculture/create-mysql-database-with-amazon-rds-4a6581e8dfaa
+2. https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
 
 
 
